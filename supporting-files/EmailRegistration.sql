@@ -5,6 +5,6 @@ CREATE TABLE EmailRegistration (
     email varchar(255),
     confirmationCode varchar(32),
     confirmed tinyint(10),
-    unsubscribed tinyint(10)
+    unsubscribed tinyint(10),
     PRIMARY KEY (id)
 );
